@@ -4,5 +4,5 @@ It's very inefficient but I don't give a fuck.
 
 If there's an illegal character, it will replace it with a *
 
---TODO--
+--TODO--\n
 Add more characters
