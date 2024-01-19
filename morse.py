@@ -1,3 +1,5 @@
+import os
+
 morse = {
         ".-": "A",
         "-...": "B",
@@ -25,6 +27,9 @@ morse = {
         "-..-": "X",
         "-.--": "Y",
         "--..": "Z",
+        ".-.-": "Æ",
+        "---.": "Ø",
+        ".--.-": "Å",
         "-----": "0",
         ".----": "1",
         "..---": "2",
@@ -34,7 +39,10 @@ morse = {
         "-....": "6",
         "--...": "7",
         "---..": "8",
-        "----.": "9"
+        "----.": "9",
+        "-.-.--": "!",
+        "--..--": ",",
+        "..--..": "?"
 }
 
 def morseToWords(sentence):
@@ -54,3 +62,4 @@ def morseToWords(sentence):
 sentence = input("Write Morse using dots and dashes with / as space between words: ")
 
 print(morseToWords(sentence))
+os.system("pause")
